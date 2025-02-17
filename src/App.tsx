@@ -17,10 +17,10 @@ const App = () => {
     <ApolloProvider client={client}>
       <Router>
         <nav className="p-4 bg-gray-800 text-white flex justify-center space-x-4">
-          <Link to="/" className="hover:underline">Home</Link>
-          <Link to="/characters" className="hover:underline">Characters</Link>
-          <Link to="/episodes" className="hover:underline">Episodes</Link>
-          <Link to="/locations" className="hover:underline">Locations</Link>
+          <Link to="/" className="hover:underline">Home </Link>
+          <Link to="/characters" className="hover:underline">Characters </Link>
+          <Link to="/episodes" className="hover:underline">Episodes </Link>
+          <Link to="/locations" className="hover:underline">Locations </Link>
         </nav>
         
         <Routes>
